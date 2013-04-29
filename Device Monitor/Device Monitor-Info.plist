@@ -27,7 +27,8 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
-	</array><key>UIPrerenderedIcon</key>
+	</array>
+	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>CFBundleIconFile</key>
 	<string>Icon</string>

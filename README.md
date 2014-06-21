@@ -1,6 +1,8 @@
 Device Monitor
 ==============
 
+[![Build Status](https://travis-ci.org/macmade/DeviceMonitor.svg?branch=master)](https://travis-ci.org/macmade/DeviceMonitor)
+
 About
 -----
 

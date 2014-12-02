@@ -2,6 +2,10 @@ Device Monitor
 ==============
 
 [![Build Status](https://img.shields.io/travis/macmade/DeviceMonitor.svg?branch=master&style=flat)](https://travis-ci.org/macmade/DeviceMonitor)
+[![Issues](http://img.shields.io/github/issues/macmade/DeviceMonitor.svg?style=flat)](https://github.com/macmade/DeviceMonitor/issues)
+![Status](https://img.shields.io/badge/status-inactive-lightgray.svg?style=flat)
+![License](https://img.shields.io/badge/license-boost-brightgreen.svg?style=flat)
+[![Contact](https://img.shields.io/badge/contact-@macmade-blue.svg?style=flat)](https://twitter.com/macmade)
 
 About
 -----

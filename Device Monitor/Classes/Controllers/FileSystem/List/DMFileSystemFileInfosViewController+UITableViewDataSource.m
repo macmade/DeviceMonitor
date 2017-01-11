@@ -124,19 +124,19 @@
             case 0:
                 
                 cell.textLabel.text         = NSLocalizedString( @"Owner", @"Owner" );
-                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%@ (%u)", _file.owner, _file.ownerID ];
+                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%@ (%lu)", _file.owner, ( unsigned long )_file.ownerID ];
                 break;
                 
             case 1:
                 
                 cell.textLabel.text         = NSLocalizedString( @"Group", @"Group" );
-                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%@ (%u)", _file.group, _file.groupID ];
+                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%@ (%lu)", _file.group, ( unsigned long )_file.groupID ];
                 break;
                 
             case 2:
                 
                 cell.textLabel.text         = NSLocalizedString( @"Permissions", @"Permissions" );
-                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%@ (%u)", _file.humanReadablePermissions, _file.octalPermissions ];
+                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%@ (%lu)", _file.humanReadablePermissions, ( unsigned long )_file.octalPermissions ];
                 break;
                 
             default:
@@ -208,19 +208,19 @@
             case 0:
                 
                 cell.textLabel.text         = NSLocalizedString( @"ReferenceCount", @"ReferenceCount" );
-                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%u", _file.referenceCount ];
+                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%lu", ( unsigned long )_file.referenceCount ];
                 break;
                 
             case 1:
                 
                 cell.textLabel.text         = NSLocalizedString( @"SystemFileNumber", @"SystemFileNumber" );
-                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%u", _file.systemFileNumber ];
+                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%lu", ( unsigned long )_file.systemFileNumber ];
                 break;
                 
             case 2:
                 
                 cell.textLabel.text         = NSLocalizedString( @"SystemNumber", @"SystemNumber" );
-                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%u", _file.systemNumber ];
+                cell.detailTextLabel.text   = [ NSString stringWithFormat: @"%lu", ( unsigned long )_file.systemNumber ];
                 break;
                 
             default:

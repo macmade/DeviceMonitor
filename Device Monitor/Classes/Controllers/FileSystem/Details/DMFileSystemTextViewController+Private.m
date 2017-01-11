@@ -91,7 +91,7 @@
     size_t            length;
     unsigned int      i;
     unsigned int      j;
-    unsigned int      fileSize;
+    size_t            fileSize;
     char              ascii;
     char              buffer[ HEX_BUFFER_LENGTH ];
     FILE            * f;

@@ -49,13 +49,13 @@
 + ( NSArray * )runningProcesses
 {
     int                 name[ 4 ];
-    size_t              nameLength;
+    unsigned int        nameLength;
     size_t              size;
     int                 res;
     struct kinfo_proc * process;
     struct kinfo_proc * newProcess;
-    int                 numberOfProcesses;
-    int                 i;
+    ssize_t             numberOfProcesses;
+    ssize_t             i;
     NSMutableArray    * processes;
     DMProcess         * p;
     

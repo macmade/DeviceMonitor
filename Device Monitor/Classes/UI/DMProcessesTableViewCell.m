@@ -92,7 +92,7 @@ NSString * const DMProcessesTableViewCellID = @"DMProcessesTableViewCell";
         _process = [ process retain ];
         
         self.textLabel.text       = process.name;
-        self.detailTextLabel.text = [ NSString stringWithFormat: @"%u", process.pid ];
+        self.detailTextLabel.text = [ NSString stringWithFormat: @"%lu", ( unsigned long )process.pid ];
         self.imageView.image      = process.icon;
     }
 }
